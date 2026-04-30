@@ -20,4 +20,8 @@ Weapon <|-- Gun
 Gun : int Ammo
 Gun : Gun()
 Gun : FireGun()
+
+Weapon <|-- Sword
+Sword : float BladeLength
+Sword : AttackWithSword()
 ```
