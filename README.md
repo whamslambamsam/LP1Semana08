@@ -24,4 +24,9 @@ Gun : FireGun()
 Weapon <|-- Sword
 Sword : float BladeLength
 Sword : AttackWithSword()
+
+Weapon <.. Character
+
+Program <-- Character
+Program : Main()
 ```
